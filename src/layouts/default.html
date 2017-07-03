@@ -6,10 +6,51 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>UMP | 2ºCongreso</title>
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
   <body>
+    <!-- LOGO BANNER -->
+    <div class="expanded row collapse ump-banner-logo">
+        <div class="shrink columns">
+            <img src="{{root}}assets/img/logo_banner_1.png" alt="">
+        </div>
+        <div class="columns">
+            <img src="{{root}}assets/img/logo_banner_2.png" alt="" class="ump-banner-logo-linea">
+        </div>
+        <div class="shrink columns show-for-medium">
+            <img src="{{root}}assets/img/logo_banner_3.png" alt="">
+        </div>
+    </div>
+    <!-- FOTO CAMINO -->
+    <div class="expanded row ump-camino-img align-center align-middle" style="background-image: url({{root}}assets/img/camino.jpg)">
+        <div class="ump-mensaje-camino">
+            <h4 class="ump-bold">2º CONGRESO DE MEDIADORES PREJUDICIALES</h4>
+            <h4>"CONSTRUYENDO CAMINOS..."</h4>
+        </div>
+        <div class="ump-credit-camino">
+            <p>Fotografía: María Gabriela Moreno</p>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <div class="title-bar ump-title-bar" data-responsive-toggle="ump-navbar" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="ump-navbar"></button>
+        <div class="title-bar-title">Menu</div>
+    </div>
+
+    <div class="top-bar ump-top-bar" id="ump-navbar" data-animate="hinge-in-from-top hinge-out-from-top">
+        <div class="top-bar-right" >
+            <ul class="vertical medium-horizontal menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CHARLAS</a></li>
+                <li><a href="#">GALERÍA</a></li>
+                <li><a href="#">VIDEOS</a></li>
+                <li><a href="#">DISERTANTES</a></li>
+                <li><a href="#">PREMIACIÓN</a></li>
+            </ul>
+        </div>
+    </div>
 
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> body}}
