@@ -106,12 +106,34 @@
     }
 }
 
-.ump-mt50 {
+.ump-footer {
+    background-color: #00397D;
+    margin-top: 20px;
+    height: 3rem;
+    p {
+        margin: 0px;
+        color: white;
+    }
+    
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt50 {
     margin-top: 50px;
 }
 
 .ump-bold {
     font-weight: bold;
+}
+
+.ms-logo {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .ump-divisor {
