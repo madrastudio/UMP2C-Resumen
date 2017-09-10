@@ -93,6 +93,16 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.ump-credit-camino-small {
+    position: absolute;
+    font-size: 0.8rem;
+    height: 20px;
+    padding: 0px 10px 0px 10px;
+    bottom: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 .ump-title-bar {
     background-color: #C00F21;
 }
@@ -109,6 +119,14 @@
     a:hover {
         background-color: #00397D;
     }
+}
+
+.ump-burguer {
+    position: fixed;
+    z-index: 100;
+    top: 20px;
+    right: 20px;
+    color: #00397D;
 }
 
 .ump-footer {
